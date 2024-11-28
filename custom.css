@@ -1,0 +1,57 @@
+body{
+	color: #555;
+}
+
+.container {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#recette-img {
+	width: 100%;
+}
+
+hr {
+    margin-top: 0;
+}
+
+#secondary-info {
+	display: flex;
+	justify-content: space-around;
+}
+
+.mark{
+	margin:auto;
+}
+
+.indicator{
+	display: flex;
+	flex-direction: column;
+}
+
+.circle {
+    border: 1px solid #eee;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+}
+
+#secondary-info p {
+	margin-top: 10px!important;
+	text-align:center;
+}
+
+table {
+	border-top: 1px solid #eee;
+}
+
+td[scope="row"] {
+	font-weight:bold;
+}
